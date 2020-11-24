@@ -1,9 +1,10 @@
 import React from "react";
+import {Customer} from './Customer';
 
 export default function App() {
         return (
             <>
-                <p>Hello World!</p>
+                <Customer name="Eloi" />
             </>
         );
 }
